@@ -25,22 +25,22 @@ function App() {
       <div className={`navbar_container ${!navbar ? 'nav' : 'nav-active'}`}>
         <div className={!navbar ? 'navlink' : 'navlink-active'}>
           <div className='social_media'>
-            <img src='https://cdn.usbrandcolors.com/images/logos/instagram-logo.png' />
-            <img src='https://1000logos.net/wp-content/uploads/2021/04/Facebook-logo.png' />
-            <img src='https://sjr.digital/wp-content/uploads/2020/11/social-linkedin-circle-512.png' />
+            <img src='https://cdn.usbrandcolors.com/images/logos/instagram-logo.png' alt='' />
+            <img src='https://1000logos.net/wp-content/uploads/2021/04/Facebook-logo.png' alt='' />
+            <img src='https://sjr.digital/wp-content/uploads/2020/11/social-linkedin-circle-512.png' alt='' />
           </div>
           <div>
-            <img className='logo' src='/logo.png' />
+            <img className='logo' src='/logo.png' alt='' />
           </div>
           <div>
-            <img src='https://assets.stickpng.com/images/580b57fcd9996e24bc43c543.png' />
+            <img src='https://assets.stickpng.com/images/580b57fcd9996e24bc43c543.png' alt='' />
             <p className='blink'>+91 9458492406</p>
           </div>
         </div>
       </div>
 
       <section className='hero'>
-        <img className='background' src='/bg_hero.jpg' />
+        <img className='background' src='/bg_hero.jpg' alt='' />
         <div className='overlay_container'>
           <div className='overlay'></div>
           <div className='hero_text'>
@@ -54,14 +54,14 @@ function App() {
         <div>
         <p className='text' >Book Now!</p> 
           <div>
-            <span><img src='https://assets.stickpng.com/images/580b57fcd9996e24bc43c543.png' /><p>7017819208</p></span>
-            <span><img src='https://assets.stickpng.com/images/580b57fcd9996e24bc43c543.png' /><p>9458492406</p></span>
+            <span><img src='https://assets.stickpng.com/images/580b57fcd9996e24bc43c543.png' alt='' /><p>7017819208</p></span>
+            <span><img src='https://assets.stickpng.com/images/580b57fcd9996e24bc43c543.png' alt='' /><p>9458492406</p></span>
           </div>
         </div>
       </div>
 
       <section className='about'>
-        <img src='hotel.jpeg' />
+        <img src='hotel.jpeg' alt='' />
         <div className='about_text'>
         <p>WELCOME</p>
         <p>Peak is one of the best luxury hotels in our state. We offer high-quality accommodation with a wide variety of rooms, additional services, and amenities available to all our guests.</p>          
@@ -77,19 +77,19 @@ function App() {
         <div className='rooms_container'>
 
         <div className='rooms_card'>
-            <img src='https://forsythsundownerinn.co/images/rooms/1.jpg' />
+            <img src='https://forsythsundownerinn.co/images/rooms/1.jpg' alt='' />
             <p>Double Room</p>
             <p>₹6000\Night</p>
           </div>
 
           <div className='rooms_card'>
-            <img src='https://forsythsundownerinn.co/images/rooms/2.jpg' />
+            <img src='https://forsythsundownerinn.co/images/rooms/2.jpg' alt='' />
             <p>Double Room</p>
             <p>₹6000\Night</p>
           </div>
 
           <div className='rooms_card'>
-            <img src='https://forsythsundownerinn.co/images/rooms/3.jpg' />
+            <img src='https://forsythsundownerinn.co/images/rooms/3.jpg' alt='' />
             <p>Double Room</p>
             <p>₹6000\Night</p>
           </div>
